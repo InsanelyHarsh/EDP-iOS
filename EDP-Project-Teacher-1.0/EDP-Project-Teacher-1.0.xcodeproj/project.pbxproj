@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0521E352950B1F2009D1933 /* EDP_Project_Teacher_1_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521E342950B1F2009D1933 /* EDP_Project_Teacher_1_0App.swift */; };
+		B0521E392950B1F4009D1933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0521E382950B1F4009D1933 /* Assets.xcassets */; };
+		B0521E3C2950B1F4009D1933 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0521E3B2950B1F4009D1933 /* Preview Assets.xcassets */; };
+		B0521ECE2950B2A1009D1933 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521E9B2950B2A0009D1933 /* RootView.swift */; };
+		B0521ECF2950B2A1009D1933 /* OnBoardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521E9D2950B2A0009D1933 /* OnBoardingManager.swift */; };
+		B0521ED02950B2A1009D1933 /* OnBoardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521E9E2950B2A0009D1933 /* OnBoardingItem.swift */; };
+		B0521ED12950B2A1009D1933 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521E9F2950B2A0009D1933 /* OnBoardingView.swift */; };
+		B0521ED22950B2A1009D1933 /* OnBoardingCustomLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EA02950B2A0009D1933 /* OnBoardingCustomLayoutView.swift */; };
+		B0521ED32950B2A1009D1933 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EA22950B2A0009D1933 /* MainView.swift */; };
+		B0521ED42950B2A1009D1933 /* TabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EA32950B2A0009D1933 /* TabManager.swift */; };
+		B0521ED52950B2A1009D1933 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EA52950B2A0009D1933 /* SettingView.swift */; };
+		B0521ED62950B2A1009D1933 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EA72950B2A0009D1933 /* SessionManager.swift */; };
+		B0521ED72950B2A1009D1933 /* RouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EA82950B2A0009D1933 /* RouteManager.swift */; };
+		B0521ED82950B2A1009D1933 /* MarkAttendanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EAB2950B2A1009D1933 /* MarkAttendanceViewModel.swift */; };
+		B0521ED92950B2A1009D1933 /* MarkAttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EAC2950B2A1009D1933 /* MarkAttendanceView.swift */; };
+		B0521EDA2950B2A1009D1933 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EAE2950B2A1009D1933 /* Constants.swift */; };
+		B0521EDB2950B2A1009D1933 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EAF2950B2A1009D1933 /* Logger.swift */; };
+		B0521EDC2950B2A1009D1933 /* AttendanceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EB12950B2A1009D1933 /* AttendanceDetailView.swift */; };
+		B0521EDD2950B2A1009D1933 /* AttendanceDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EB22950B2A1009D1933 /* AttendanceDetailViewModel.swift */; };
+		B0521EE22950B2A1009D1933 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EB92950B2A1009D1933 /* NetworkingService.swift */; };
+		B0521EE32950B2A1009D1933 /* CourseDetailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EBB2950B2A1009D1933 /* CourseDetailManager.swift */; };
+		B0521EE42950B2A1009D1933 /* CourseDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EBC2950B2A1009D1933 /* CourseDetailModel.swift */; };
+		B0521EE52950B2A1009D1933 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EBD2950B2A1009D1933 /* CourseDetailView.swift */; };
+		B0521EE62950B2A1009D1933 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EBF2950B2A1009D1933 /* HomeView.swift */; };
+		B0521EE72950B2A1009D1933 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EC22950B2A1009D1933 /* ForgotPasswordViewModel.swift */; };
+		B0521EE82950B2A1009D1933 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EC32950B2A1009D1933 /* ForgotPasswordView.swift */; };
+		B0521EE92950B2A1009D1933 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EC52950B2A1009D1933 /* SignupViewModel.swift */; };
+		B0521EEA2950B2A1009D1933 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EC62950B2A1009D1933 /* SignupView.swift */; };
+		B0521EEB2950B2A1009D1933 /* LoginFlowRouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EC72950B2A1009D1933 /* LoginFlowRouteManager.swift */; };
+		B0521EEC2950B2A1009D1933 /* MainLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EC82950B2A1009D1933 /* MainLoginView.swift */; };
+		B0521EED2950B2A1009D1933 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521ECA2950B2A1009D1933 /* LoginViewModel.swift */; };
+		B0521EEE2950B2A1009D1933 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521ECB2950B2A1009D1933 /* LoginView.swift */; };
+		B0521EF32950B8E8009D1933 /* ScanningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EF22950B8E8009D1933 /* ScanningService.swift */; };
+		B0521EF52950B8FF009D1933 /* PeripheralService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EF42950B8FF009D1933 /* PeripheralService.swift */; };
+		B0521EF72950B910009D1933 /* ScanningServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EF62950B910009D1933 /* ScanningServiceDelegate.swift */; };
+		B0521EF92950B91F009D1933 /* ScanningServiceProgressDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EF82950B91F009D1933 /* ScanningServiceProgressDescription.swift */; };
+		B0521EFB2950B93B009D1933 /* ScannedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EFA2950B93B009D1933 /* ScannedDataModel.swift */; };
+		B0521EFF2951A0E9009D1933 /* BroadcastedServiceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0521EFE2951A0E9009D1933 /* BroadcastedServiceDataModel.swift */; };
+		B075055A2955E0DA0076D174 /* CreateNewCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07505592955E0DA0076D174 /* CreateNewCourseView.swift */; };
+		B0D4C34329669651009F7F84 /* LoginAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D4C34229669651009F7F84 /* LoginAlerts.swift */; };
+		B0D4C34B2966F529009F7F84 /* PasswordFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D4C34A2966F529009F7F84 /* PasswordFieldView.swift */; };
+		B0D4C34D296700F5009F7F84 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D4C34C296700F5009F7F84 /* ProfileView.swift */; };
+		B0E2C32F295713F80046F1F8 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C32C295713F80046F1F8 /* EditProfileView.swift */; };
+		B0E2C330295713F80046F1F8 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C32D295713F80046F1F8 /* ProfileViewModel.swift */; };
+		B0E2C333295714260046F1F8 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C332295714260046F1F8 /* Branch.swift */; };
+		B0E2C3352957162E0046F1F8 /* CreateNewCourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C3342957162E0046F1F8 /* CreateNewCourseViewModel.swift */; };
+		B0E2C33729572FCD0046F1F8 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C33629572FCD0046F1F8 /* Authenticator.swift */; };
+		B0E2C339295781F90046F1F8 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C338295781F90046F1F8 /* RealmManager.swift */; };
+		B0E2C3402957836E0046F1F8 /* TeacherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C33B2957836E0046F1F8 /* TeacherModel.swift */; };
+		B0E2C3412957836E0046F1F8 /* ClassAttendanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C33C2957836E0046F1F8 /* ClassAttendanceModel.swift */; };
+		B0E2C3422957836E0046F1F8 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C33D2957836E0046F1F8 /* CourseModel.swift */; };
+		B0E2C3432957836E0046F1F8 /* EnrolledStudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C33E2957836E0046F1F8 /* EnrolledStudentModel.swift */; };
+		B0E2C3442957836E0046F1F8 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C33F2957836E0046F1F8 /* StudentModel.swift */; };
+		B0E2C346295787710046F1F8 /* TabularData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C345295787710046F1F8 /* TabularData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0521E312950B1F2009D1933 /* EDP-Project-Teacher-1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EDP-Project-Teacher-1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0521E342950B1F2009D1933 /* EDP_Project_Teacher_1_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDP_Project_Teacher_1_0App.swift; sourceTree = "<group>"; };
+		B0521E382950B1F4009D1933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0521E3B2950B1F4009D1933 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0521E9B2950B2A0009D1933 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B0521E9D2950B2A0009D1933 /* OnBoardingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingManager.swift; sourceTree = "<group>"; };
+		B0521E9E2950B2A0009D1933 /* OnBoardingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingItem.swift; sourceTree = "<group>"; };
+		B0521E9F2950B2A0009D1933 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		B0521EA02950B2A0009D1933 /* OnBoardingCustomLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingCustomLayoutView.swift; sourceTree = "<group>"; };
+		B0521EA22950B2A0009D1933 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B0521EA32950B2A0009D1933 /* TabManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabManager.swift; sourceTree = "<group>"; };
+		B0521EA52950B2A0009D1933 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		B0521EA72950B2A0009D1933 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		B0521EA82950B2A0009D1933 /* RouteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteManager.swift; sourceTree = "<group>"; };
+		B0521EAB2950B2A1009D1933 /* MarkAttendanceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkAttendanceViewModel.swift; sourceTree = "<group>"; };
+		B0521EAC2950B2A1009D1933 /* MarkAttendanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkAttendanceView.swift; sourceTree = "<group>"; };
+		B0521EAE2950B2A1009D1933 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B0521EAF2950B2A1009D1933 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B0521EB12950B2A1009D1933 /* AttendanceDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceDetailView.swift; sourceTree = "<group>"; };
+		B0521EB22950B2A1009D1933 /* AttendanceDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceDetailViewModel.swift; sourceTree = "<group>"; };
+		B0521EB92950B2A1009D1933 /* NetworkingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		B0521EBB2950B2A1009D1933 /* CourseDetailManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDetailManager.swift; sourceTree = "<group>"; };
+		B0521EBC2950B2A1009D1933 /* CourseDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDetailModel.swift; sourceTree = "<group>"; };
+		B0521EBD2950B2A1009D1933 /* CourseDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		B0521EBF2950B2A1009D1933 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0521EC22950B2A1009D1933 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		B0521EC32950B2A1009D1933 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		B0521EC52950B2A1009D1933 /* SignupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		B0521EC62950B2A1009D1933 /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		B0521EC72950B2A1009D1933 /* LoginFlowRouteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFlowRouteManager.swift; sourceTree = "<group>"; };
+		B0521EC82950B2A1009D1933 /* MainLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLoginView.swift; sourceTree = "<group>"; };
+		B0521ECA2950B2A1009D1933 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B0521ECB2950B2A1009D1933 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B0521EF22950B8E8009D1933 /* ScanningService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningService.swift; sourceTree = "<group>"; };
+		B0521EF42950B8FF009D1933 /* PeripheralService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralService.swift; sourceTree = "<group>"; };
+		B0521EF62950B910009D1933 /* ScanningServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningServiceDelegate.swift; sourceTree = "<group>"; };
+		B0521EF82950B91F009D1933 /* ScanningServiceProgressDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningServiceProgressDescription.swift; sourceTree = "<group>"; };
+		B0521EFA2950B93B009D1933 /* ScannedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedDataModel.swift; sourceTree = "<group>"; };
+		B0521EFE2951A0E9009D1933 /* BroadcastedServiceDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastedServiceDataModel.swift; sourceTree = "<group>"; };
+		B07505592955E0DA0076D174 /* CreateNewCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCourseView.swift; sourceTree = "<group>"; };
+		B0D4C34229669651009F7F84 /* LoginAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAlerts.swift; sourceTree = "<group>"; };
+		B0D4C34A2966F529009F7F84 /* PasswordFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordFieldView.swift; sourceTree = "<group>"; };
+		B0D4C34C296700F5009F7F84 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B0E2C32C295713F80046F1F8 /* EditProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		B0E2C32D295713F80046F1F8 /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		B0E2C332295714260046F1F8 /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		B0E2C3342957162E0046F1F8 /* CreateNewCourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCourseViewModel.swift; sourceTree = "<group>"; };
+		B0E2C33629572FCD0046F1F8 /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		B0E2C338295781F90046F1F8 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		B0E2C33B2957836E0046F1F8 /* TeacherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherModel.swift; sourceTree = "<group>"; };
+		B0E2C33C2957836E0046F1F8 /* ClassAttendanceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassAttendanceModel.swift; sourceTree = "<group>"; };
+		B0E2C33D2957836E0046F1F8 /* CourseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		B0E2C33E2957836E0046F1F8 /* EnrolledStudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnrolledStudentModel.swift; sourceTree = "<group>"; };
+		B0E2C33F2957836E0046F1F8 /* StudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		B0E2C345295787710046F1F8 /* TabularData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabularData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0521E2E2950B1F2009D1933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0521E282950B1F2009D1933 = {
+			isa = PBXGroup;
+			children = (
+				B0521E332950B1F2009D1933 /* EDP-Project-Teacher-1.0 */,
+				B0521E322950B1F2009D1933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0521E322950B1F2009D1933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0521E312950B1F2009D1933 /* EDP-Project-Teacher-1.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0521E332950B1F2009D1933 /* EDP-Project-Teacher-1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B0521E342950B1F2009D1933 /* EDP_Project_Teacher_1_0App.swift */,
+				B0521E9A2950B2A0009D1933 /* Root */,
+				B0521E9C2950B2A0009D1933 /* OnBoarding */,
+				B0521EC02950B2A1009D1933 /* LoginFlow */,
+				B0521EA12950B2A0009D1933 /* Main */,
+				B0521EA42950B2A0009D1933 /* Setting */,
+				B07505582955E0C20076D174 /* CreateNewCourse */,
+				B0521EBE2950B2A1009D1933 /* Home */,
+				B0521ECC2950B2A1009D1933 /* Profile */,
+				B0521EBA2950B2A1009D1933 /* CourseDetail */,
+				B0521EAA2950B2A1009D1933 /* Attendance */,
+				B0521EB02950B2A1009D1933 /* AttendanceDetail */,
+				B0521EB32950B2A1009D1933 /* Serivces */,
+				B0521EA62950B2A0009D1933 /* Manager */,
+				B0E2C33A2957835F0046F1F8 /* DatabaseModel */,
+				B0521EAD2950B2A1009D1933 /* Utilities */,
+				B0521EA92950B2A0009D1933 /* Preview Content */,
+				B0521E382950B1F4009D1933 /* Assets.xcassets */,
+				B0521E3A2950B1F4009D1933 /* Preview Content */,
+			);
+			path = "EDP-Project-Teacher-1.0";
+			sourceTree = "<group>";
+		};
+		B0521E3A2950B1F4009D1933 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B0521E3B2950B1F4009D1933 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0521E9A2950B2A0009D1933 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				B0521E9B2950B2A0009D1933 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		B0521E9C2950B2A0009D1933 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				B0521E9D2950B2A0009D1933 /* OnBoardingManager.swift */,
+				B0521E9E2950B2A0009D1933 /* OnBoardingItem.swift */,
+				B0521E9F2950B2A0009D1933 /* OnBoardingView.swift */,
+				B0521EA02950B2A0009D1933 /* OnBoardingCustomLayoutView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		B0521EA12950B2A0009D1933 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EA22950B2A0009D1933 /* MainView.swift */,
+				B0521EA32950B2A0009D1933 /* TabManager.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B0521EA42950B2A0009D1933 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EA52950B2A0009D1933 /* SettingView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		B0521EA62950B2A0009D1933 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EA72950B2A0009D1933 /* SessionManager.swift */,
+				B0521EA82950B2A0009D1933 /* RouteManager.swift */,
+				B0E2C338295781F90046F1F8 /* RealmManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B0521EA92950B2A0009D1933 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Preview Content";
+			path = "../../EDP-Project-1.0/EDP-Project-1.0/Preview Content";
+			sourceTree = "<group>";
+		};
+		B0521EAA2950B2A1009D1933 /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EAC2950B2A1009D1933 /* MarkAttendanceView.swift */,
+				B0521EAB2950B2A1009D1933 /* MarkAttendanceViewModel.swift */,
+			);
+			path = Attendance;
+			sourceTree = "<group>";
+		};
+		B0521EAD2950B2A1009D1933 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B0E2C332295714260046F1F8 /* Branch.swift */,
+				B0521EAE2950B2A1009D1933 /* Constants.swift */,
+				B0521EAF2950B2A1009D1933 /* Logger.swift */,
+				B0E2C33629572FCD0046F1F8 /* Authenticator.swift */,
+				B0E2C345295787710046F1F8 /* TabularData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B0521EB02950B2A1009D1933 /* AttendanceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EB12950B2A1009D1933 /* AttendanceDetailView.swift */,
+				B0521EB22950B2A1009D1933 /* AttendanceDetailViewModel.swift */,
+			);
+			path = AttendanceDetail;
+			sourceTree = "<group>";
+		};
+		B0521EB32950B2A1009D1933 /* Serivces */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EF02950B8C8009D1933 /* ScanningService */,
+				B0D4C352296728EA009F7F84 /* NetworkingService */,
+				B0521EF12950B8D0009D1933 /* PeripheralService */,
+			);
+			path = Serivces;
+			sourceTree = "<group>";
+		};
+		B0521EBA2950B2A1009D1933 /* CourseDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EBD2950B2A1009D1933 /* CourseDetailView.swift */,
+				B0521EBB2950B2A1009D1933 /* CourseDetailManager.swift */,
+				B0521EBC2950B2A1009D1933 /* CourseDetailModel.swift */,
+			);
+			path = CourseDetail;
+			sourceTree = "<group>";
+		};
+		B0521EBE2950B2A1009D1933 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EBF2950B2A1009D1933 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B0521EC02950B2A1009D1933 /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EC72950B2A1009D1933 /* LoginFlowRouteManager.swift */,
+				B0521EC82950B2A1009D1933 /* MainLoginView.swift */,
+				B0D4C34229669651009F7F84 /* LoginAlerts.swift */,
+				B0521EC12950B2A1009D1933 /* ForgotPassword */,
+				B0521EC42950B2A1009D1933 /* SignUp */,
+				B0521EC92950B2A1009D1933 /* Login */,
+				B0D4C34A2966F529009F7F84 /* PasswordFieldView.swift */,
+			);
+			path = LoginFlow;
+			sourceTree = "<group>";
+		};
+		B0521EC12950B2A1009D1933 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EC22950B2A1009D1933 /* ForgotPasswordViewModel.swift */,
+				B0521EC32950B2A1009D1933 /* ForgotPasswordView.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		B0521EC42950B2A1009D1933 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EC52950B2A1009D1933 /* SignupViewModel.swift */,
+				B0521EC62950B2A1009D1933 /* SignupView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		B0521EC92950B2A1009D1933 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B0521ECA2950B2A1009D1933 /* LoginViewModel.swift */,
+				B0521ECB2950B2A1009D1933 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B0521ECC2950B2A1009D1933 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B0E2C32C295713F80046F1F8 /* EditProfileView.swift */,
+				B0E2C32D295713F80046F1F8 /* ProfileViewModel.swift */,
+				B0D4C34C296700F5009F7F84 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B0521EF02950B8C8009D1933 /* ScanningService */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EF22950B8E8009D1933 /* ScanningService.swift */,
+				B0521EF62950B910009D1933 /* ScanningServiceDelegate.swift */,
+				B0521EF82950B91F009D1933 /* ScanningServiceProgressDescription.swift */,
+				B0521EFA2950B93B009D1933 /* ScannedDataModel.swift */,
+				B0521EFE2951A0E9009D1933 /* BroadcastedServiceDataModel.swift */,
+			);
+			path = ScanningService;
+			sourceTree = "<group>";
+		};
+		B0521EF12950B8D0009D1933 /* PeripheralService */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EF42950B8FF009D1933 /* PeripheralService.swift */,
+			);
+			path = PeripheralService;
+			sourceTree = "<group>";
+		};
+		B07505582955E0C20076D174 /* CreateNewCourse */ = {
+			isa = PBXGroup;
+			children = (
+				B07505592955E0DA0076D174 /* CreateNewCourseView.swift */,
+				B0E2C3342957162E0046F1F8 /* CreateNewCourseViewModel.swift */,
+			);
+			path = CreateNewCourse;
+			sourceTree = "<group>";
+		};
+		B0D4C352296728EA009F7F84 /* NetworkingService */ = {
+			isa = PBXGroup;
+			children = (
+				B0521EB92950B2A1009D1933 /* NetworkingService.swift */,
+			);
+			path = NetworkingService;
+			sourceTree = "<group>";
+		};
+		B0E2C33A2957835F0046F1F8 /* DatabaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				B0E2C33C2957836E0046F1F8 /* ClassAttendanceModel.swift */,
+				B0E2C33D2957836E0046F1F8 /* CourseModel.swift */,
+				B0E2C33E2957836E0046F1F8 /* EnrolledStudentModel.swift */,
+				B0E2C33F2957836E0046F1F8 /* StudentModel.swift */,
+				B0E2C33B2957836E0046F1F8 /* TeacherModel.swift */,
+			);
+			path = DatabaseModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0521E302950B1F2009D1933 /* EDP-Project-Teacher-1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0521E3F2950B1F4009D1933 /* Build configuration list for PBXNativeTarget "EDP-Project-Teacher-1.0" */;
+			buildPhases = (
+				B0521E2D2950B1F2009D1933 /* Sources */,
+				B0521E2E2950B1F2009D1933 /* Frameworks */,
+				B0521E2F2950B1F2009D1933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EDP-Project-Teacher-1.0";
+			productName = "EDP-Project-Teacher-1.0";
+			productReference = B0521E312950B1F2009D1933 /* EDP-Project-Teacher-1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0521E292950B1F2009D1933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B0521E302950B1F2009D1933 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B0521E2C2950B1F2009D1933 /* Build configuration list for PBXProject "EDP-Project-Teacher-1.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0521E282950B1F2009D1933;
+			productRefGroup = B0521E322950B1F2009D1933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0521E302950B1F2009D1933 /* EDP-Project-Teacher-1.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0521E2F2950B1F2009D1933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0521E3C2950B1F4009D1933 /* Preview Assets.xcassets in Resources */,
+				B0521E392950B1F4009D1933 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0521E2D2950B1F2009D1933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E2C3442957836E0046F1F8 /* StudentModel.swift in Sources */,
+				B0521EFB2950B93B009D1933 /* ScannedDataModel.swift in Sources */,
+				B0521EE62950B2A1009D1933 /* HomeView.swift in Sources */,
+				B0E2C3422957836E0046F1F8 /* CourseModel.swift in Sources */,
+				B0521ED92950B2A1009D1933 /* MarkAttendanceView.swift in Sources */,
+				B0521EFF2951A0E9009D1933 /* BroadcastedServiceDataModel.swift in Sources */,
+				B075055A2955E0DA0076D174 /* CreateNewCourseView.swift in Sources */,
+				B0521EF32950B8E8009D1933 /* ScanningService.swift in Sources */,
+				B0E2C33729572FCD0046F1F8 /* Authenticator.swift in Sources */,
+				B0521ECF2950B2A1009D1933 /* OnBoardingManager.swift in Sources */,
+				B0D4C34329669651009F7F84 /* LoginAlerts.swift in Sources */,
+				B0521EDD2950B2A1009D1933 /* AttendanceDetailViewModel.swift in Sources */,
+				B0521EE42950B2A1009D1933 /* CourseDetailModel.swift in Sources */,
+				B0521EE92950B2A1009D1933 /* SignupViewModel.swift in Sources */,
+				B0E2C3352957162E0046F1F8 /* CreateNewCourseViewModel.swift in Sources */,
+				B0521EF92950B91F009D1933 /* ScanningServiceProgressDescription.swift in Sources */,
+				B0E2C339295781F90046F1F8 /* RealmManager.swift in Sources */,
+				B0521EEE2950B2A1009D1933 /* LoginView.swift in Sources */,
+				B0521EE22950B2A1009D1933 /* NetworkingService.swift in Sources */,
+				B0D4C34B2966F529009F7F84 /* PasswordFieldView.swift in Sources */,
+				B0521ED52950B2A1009D1933 /* SettingView.swift in Sources */,
+				B0E2C330295713F80046F1F8 /* ProfileViewModel.swift in Sources */,
+				B0521EED2950B2A1009D1933 /* LoginViewModel.swift in Sources */,
+				B0521EE82950B2A1009D1933 /* ForgotPasswordView.swift in Sources */,
+				B0521ED32950B2A1009D1933 /* MainView.swift in Sources */,
+				B0521ED72950B2A1009D1933 /* RouteManager.swift in Sources */,
+				B0521EDC2950B2A1009D1933 /* AttendanceDetailView.swift in Sources */,
+				B0521EDA2950B2A1009D1933 /* Constants.swift in Sources */,
+				B0521EEB2950B2A1009D1933 /* LoginFlowRouteManager.swift in Sources */,
+				B0521EDB2950B2A1009D1933 /* Logger.swift in Sources */,
+				B0521EF52950B8FF009D1933 /* PeripheralService.swift in Sources */,
+				B0E2C333295714260046F1F8 /* Branch.swift in Sources */,
+				B0521ED22950B2A1009D1933 /* OnBoardingCustomLayoutView.swift in Sources */,
+				B0E2C3402957836E0046F1F8 /* TeacherModel.swift in Sources */,
+				B0E2C32F295713F80046F1F8 /* EditProfileView.swift in Sources */,
+				B0521EEC2950B2A1009D1933 /* MainLoginView.swift in Sources */,
+				B0E2C3432957836E0046F1F8 /* EnrolledStudentModel.swift in Sources */,
+				B0521ED02950B2A1009D1933 /* OnBoardingItem.swift in Sources */,
+				B0521ED12950B2A1009D1933 /* OnBoardingView.swift in Sources */,
+				B0521EF72950B910009D1933 /* ScanningServiceDelegate.swift in Sources */,
+				B0D4C34D296700F5009F7F84 /* ProfileView.swift in Sources */,
+				B0E2C346295787710046F1F8 /* TabularData.swift in Sources */,
+				B0521E352950B1F2009D1933 /* EDP_Project_Teacher_1_0App.swift in Sources */,
+				B0521EE52950B2A1009D1933 /* CourseDetailView.swift in Sources */,
+				B0521EE32950B2A1009D1933 /* CourseDetailManager.swift in Sources */,
+				B0E2C3412957836E0046F1F8 /* ClassAttendanceModel.swift in Sources */,
+				B0521EEA2950B2A1009D1933 /* SignupView.swift in Sources */,
+				B0521ED82950B2A1009D1933 /* MarkAttendanceViewModel.swift in Sources */,
+				B0521EE72950B2A1009D1933 /* ForgotPasswordViewModel.swift in Sources */,
+				B0521ECE2950B2A1009D1933 /* RootView.swift in Sources */,
+				B0521ED42950B2A1009D1933 /* TabManager.swift in Sources */,
+				B0521ED62950B2A1009D1933 /* SessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0521E3D2950B1F4009D1933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0521E3E2950B1F4009D1933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0521E402950B1F4009D1933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EDP-Project-Teacher-1.0/Preview Content\"";
+				DEVELOPMENT_TEAM = NF89CMS79F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Grant Permission to Take Attendance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.InsanelyHarsh.EDP-Project-Teacher-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0521E412950B1F4009D1933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EDP-Project-Teacher-1.0/Preview Content\"";
+				DEVELOPMENT_TEAM = NF89CMS79F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Grant Permission to Take Attendance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.InsanelyHarsh.EDP-Project-Teacher-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0521E2C2950B1F2009D1933 /* Build configuration list for PBXProject "EDP-Project-Teacher-1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0521E3D2950B1F4009D1933 /* Debug */,
+				B0521E3E2950B1F4009D1933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0521E3F2950B1F4009D1933 /* Build configuration list for PBXNativeTarget "EDP-Project-Teacher-1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0521E402950B1F4009D1933 /* Debug */,
+				B0521E412950B1F4009D1933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0521E292950B1F2009D1933 /* Project object */;
+}
